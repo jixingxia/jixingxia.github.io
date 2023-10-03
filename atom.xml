@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>疾行屋</title>
+  
+  
+  <link href="https://jixingwu.qianxun7747.eu.org/atom.xml" rel="self"/>
+  
+  <link href="https://jixingwu.qianxun7747.eu.org/"/>
+  <updated>2023-09-29T10:21:07.254Z</updated>
+  <id>https://jixingwu.qianxun7747.eu.org/</id>
+  
+  <author>
+    <name>疾行侠</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>千寻论坛正式上线！送十张5000金钱密钥！（含使用方法）</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/38077.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/38077.html</id>
+    <published>2023-08-25T05:57:07.000Z</published>
+    <updated>2023-09-29T10:21:07.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家好！我是千寻(以前名字，这是第二个博客，改名为疾行侠)！今天！我的Discuz论坛上线啦！现在是非常高兴！给大家送上十张5000金钱的密钥！当你们使用了他们，那就是老粉啦！哈哈！现在我分享出来并告诉你们使用方法.</p><h1>密钥</h1><pre><code>Qianxun7747A4H6R6S8KQ87KN</code></pre><p>Qianxun7747E5C6S5T63F14XM<br>Qianxun7747F2G47VS21Y95GV<br>Qianxun7747G5J84YC6RM89EC<br>Qianxun7747J4X4IYG3WQ92PA<br>Qianxun7747L7S8UJB9LA78ZZ<br>Qianxun7747P8A6VAS5CD71SS<br>Qianxun7747U7D59PV1C269HA<br>Qianxun7747W5S4A2X24739UF<br>Qianxun7747Y6L6VTX4ZJ23VK</p><h1>使用方法</h1><p>前往我的论坛<a href="http://qxluntan.qianxun7747.eu.org/">点我前往</a><br>然后登陆，进行设置，积分，充值，充值卡充值输入即可！验证码有点玄乎哈！<br>每一个均是5000金钱的密钥！先到先得哦！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;大家好！我是千寻(以前名字，这是第二个博客，改名为疾行侠)！今天！我的Discuz论坛上线啦！现在是非常高兴！给大家送上十张5000金钱的密钥！当你们使用了他们，那就是老粉啦！哈哈！现在我分享出来并告诉你们使用方法.&lt;/p&gt;
+&lt;h1&gt;密钥&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Q</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="后端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Discuz" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/Discuz/"/>
+    
+    
+    <category term="论坛" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E8%AE%BA%E5%9D%9B/"/>
+    
+    <category term="密钥" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E5%AF%86%E9%92%A5/"/>
+    
+    <category term="Discuz" scheme="https://jixingwu.qianxun7747.eu.org/tags/Discuz/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>运用Cloudflare和Telegraph-Image做一个属于自己的图床</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/51207.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/51207.html</id>
+    <published>2023-08-24T05:24:07.000Z</published>
+    <updated>2023-08-24T07:02:29.512Z</updated>
+    
+    <content type="html"><![CDATA[<h1>前言</h1><p>本想着自己做一个图床，可是Picx我感觉有点麻烦，每换一个浏览器之类的，或者换系统都要重新配置，所以我选择了Telegraph-Image.</p><h1>教程</h1><p>那么我们开始吧！</p><h2 id="forkGithub仓库">forkGithub仓库</h2><p>我们fork<a href="https://github.com/cf-pages/Telegraph-Image/">此仓库</a></p><h2 id="前往Cloudflare创建Pages">前往Cloudflare创建Pages</h2><p>我们点击Workers和Pages然后去创建一个Pages，项目为我们所fork的仓库<br><img src="https://img.qianxun7747.eu.org/file/267f6331c6b5d086cc763.png" alt="267f6331c6b5d086cc763.png"><br><img src="https://img.qianxun7747.eu.org/file/b9113ab7b5b931f8d87f4.png" alt="b9113ab7b5b931f8d87f4.png"><br>默认设置即可！然后我们就可以使用了！但是我们需要配置域名</p><h2 id="配置域名">配置域名</h2><p>我们进入自定义域，然后输入你在clouflare所托管的域名可以有前置比如img.xxx.xxx然后我们输入你想设置的域名cloudflare会自动帮你配置</p><h2 id="设置管理员">设置管理员</h2><p>我们现在还不能管理图片，所以我们去创建管理员账户！<br>去cloudflare点击KV(在Workers和Pages里面)<br><img src="https://img.qianxun7747.eu.org/file/0139ea0af0da3aed4b71e.png" alt="0139ea0af0da3aed4b71e.png"><br>创建新的命名空间<br>然后我们回到我们的Workers和Pages页面点击Telegraph-image里面点击设置和函数<br>找到KV命名空间绑定<br><img src="https://img.qianxun7747.eu.org/file/c6630e9a517b18a042735.png" alt="c6630e9a517b18a042735.png"><br>变量名称为img_url然后选择你的空间<br><img src="https://img.qianxun7747.eu.org/file/f4d302056e2fab012ae9b.png" alt="f4d302056e2fab012ae9b.png"><br>然后回到环境变量<br>设置BASIC_PASS和BASIC_USER分别是你的密码和你的账户名保存后回到我们的首页重新部署一下就好啦！<br><img src="https://img.qianxun7747.eu.org/file/c970ab723333387c3e77f.png" alt="c970ab723333387c3e77f.png"><br>找到三个小点然后重试部署就好啦！</p><h2 id="管理员账户和密码">管理员账户和密码</h2><p>在你的网址后加入/admin进入管理系统用户名密码为你设置的哦！</p><h1>最后</h1><p>有事情请评论！优先使用Twikoo,我可以收到你的留言，而Waline我没有设置提醒</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;本想着自己做一个图床，可是Picx我感觉有点麻烦，每换一个浏览器之类的，或者换系统都要重新配置，所以我选择了Telegraph-Image.&lt;/p&gt;
+&lt;h1&gt;教程&lt;/h1&gt;
+&lt;p&gt;那么我们开始吧！&lt;/p&gt;
+&lt;h2 id=&quot;forkGithub仓库&quot;&gt;</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="后端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/"/>
+    
+    
+    <category term="图床" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+    <category term="cloudflare" scheme="https://jixingwu.qianxun7747.eu.org/tags/cloudflare/"/>
+    
+    <category term="Telegraph-Image" scheme="https://jixingwu.qianxun7747.eu.org/tags/Telegraph-Image/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Waline部署教程</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/60172.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/60172.html</id>
+    <published>2023-08-24T04:58:35.000Z</published>
+    <updated>2023-10-03T02:04:37.544Z</updated>
+    
+    <content type="html"><![CDATA[<h1>前言</h1><p>大家好！我是千寻(现改名为疾行侠)，最近心血来潮准备给你们更新博文啦！今天我们来讲一下Waline的部署教程</p><h1>教程</h1><p>现在是教程部分</p><h2 id="账号准备">账号准备</h2><p>我们需要<strong>Vercel</strong> ，和你自己绑定的域名厂商，<strong>必须要域名</strong>不然无法访问。<strong>我这边用Cloudflare</strong></p><h2 id="前往waline官网">前往waline官网</h2><p><img src="https://img.qianxun7747.eu.org/file/4312974bd2efb415aadce.png" alt="4312974bd2efb415aadce.png"><br>我们可以点击快速开始去按照<strong>官方文档</strong>去按照官方的教程去做，也可以按照我的教程做下去。</p><h2 id="新建数据库">新建数据库</h2><p>我们来到<a href="https://leancloud.app/">LeanCloud</a>创建数据库<br>![49d4f3bfd79cee1112aed.png]<a href="https://img.qianxun7747.eu.org/file/754a46d23d81769828031.png">https://img.qianxun7747.eu.org/file/754a46d23d81769828031.png</a><br>选择开发版，不然你要付费！<br>然后进入设置并找到你的APPID的那三个（后面环境变量要用）</p><h2 id="部署填写环境变量">部署填写环境变量</h2><p><img src="https://img.qianxun7747.eu.org/file/e03d73ce77cab3b868274.png" alt="e03d73ce77cab3b868274.png"><br>我们<a href="href=%22https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fwalinejs%2Fwaline%2Ftree%2Fmain%2Fexample%22">点击我</a>进行部署。<br>部署完成后我们填写我们的环境变量，位置在Settings - Environment Variables<br>分别填写LEAN_ID, LEAN_KEY 和 LEAN_MASTER_KEY 。它们的值分别对应上一步在 LeanCloud 中获得的 APP ID, APP KEY, Master Key。<br><img src="https://img.qianxun7747.eu.org/file/c497e9558e87ebf592e78.png" alt="c497e9558e87ebf592e78.png"><br>然后我们去配置域名，按照它给的填写<br><img src="https://img.qianxun7747.eu.org/file/30151bd024be775ad238f.png" alt="30151bd024be775ad238f.png"><br><img src="https://img.qianxun7747.eu.org/file/5994964ccc58747b759d5.png" alt="5994964ccc58747b759d5.png"><br>然后部署一下就好了！点击Deployments然后三个小点点部署就好啦！</p><h2 id="设置你的管理员">设置你的管理员</h2><p>在你的网址后面加/ui注册你的管理员账户！我就不演示了！</p><h2 id="看官方文档">看官方文档</h2><p>不行的话就去官方文档看看吧！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;大家好！我是千寻(现改名为疾行侠)，最近心血来潮准备给你们更新博文啦！今天我们来讲一下Waline的部署教程&lt;/p&gt;
+&lt;h1&gt;教程&lt;/h1&gt;
+&lt;p&gt;现在是教程部分&lt;/p&gt;
+&lt;h2 id=&quot;账号准备&quot;&gt;账号准备&lt;/h2&gt;
+&lt;p&gt;我们需要&lt;strong&gt;</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="后端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/"/>
+    
+    <category term="Waline" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/Waline/"/>
+    
+    <category term="评论" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/Waline/%E8%AF%84%E8%AE%BA/"/>
+    
+    <category term="教程" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%90%8E%E7%AB%AF/Waline/%E8%AF%84%E8%AE%BA/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="部署" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="Waline" scheme="https://jixingwu.qianxun7747.eu.org/tags/Waline/"/>
+    
+    <category term="vercel" scheme="https://jixingwu.qianxun7747.eu.org/tags/vercel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>B站视频测试_Test</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/37543.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/37543.html</id>
+    <published>2023-08-20T10:46:05.000Z</published>
+    <updated>2023-08-20T11:06:47.042Z</updated>
+    
+    <content type="html"><![CDATA[<p>只是测试一下自己的B站视频QWQ</p><iframe src="//player.bilibili.com/player.html?aid=232387555&bvid=BV1P8411978z&cid=1239827585&page=1" width="800" height="600" frameborder="0" allowfullscreen></iframe>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;只是测试一下自己的B站视频QWQ&lt;/p&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=232387555&amp;bvid=BV1P8411978z&amp;cid=1239827585&amp;page=1&quot; width=&quot;800&quot; he</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="博客" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="测试" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="test" scheme="https://jixingwu.qianxun7747.eu.org/tags/test/"/>
+    
+    <category term="Bilbil" scheme="https://jixingwu.qianxun7747.eu.org/tags/Bilbil/"/>
+    
+    <category term="MD" scheme="https://jixingwu.qianxun7747.eu.org/tags/MD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>联系我的几种方式</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/42949.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/42949.html</id>
+    <published>2023-08-07T09:25:01.000Z</published>
+    <updated>2023-10-01T05:48:53.360Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家可能有时候联系不到我，但有时候又需要与我交流，可能找不到我，我现在就跟大家说说如何联系到我</p><h1>邮箱</h1><p>邮箱是最直接的，我的邮箱有:2224824262@qq.com 和(and) jixingxia@outlook.com你们可以通过这两种方式联系我</p><h1>QQ</h1><p>也可以直接QQ:2224824262</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;大家可能有时候联系不到我，但有时候又需要与我交流，可能找不到我，我现在就跟大家说说如何联系到我&lt;/p&gt;
+&lt;h1&gt;邮箱&lt;/h1&gt;
+&lt;p&gt;邮箱是最直接的，我的邮箱有:2224824262@qq.com 和(and) jixingxia@outlook.com你们可以通过这两种方</summary>
+      
+    
+    
+    
+    <category term="联系方式" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/"/>
+    
+    
+    <category term="联系方式" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E8%81%94%E7%B3%BB%E6%96%B9%E5%BC%8F/"/>
+    
+    <category term="联系作者" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E8%81%94%E7%B3%BB%E4%BD%9C%E8%80%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HEXO部署教程（超级详细！）</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/43636.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/43636.html</id>
+    <published>2023-08-06T04:21:44.000Z</published>
+    <updated>2023-10-01T05:48:47.431Z</updated>
+    
+    <content type="html"><![CDATA[<h1>前言</h1><p>啊啊啊啊！为什么又出错了！为什么又不行！啊啊啊！不做了！相信各位小伙伴都有过<strong>部署出错</strong>的崩溃和网上东搜西搜<strong>仍然无法解决</strong>的问题，那么疾行侠就来教大家一下吧！QWQ！不保证成功，这是我重做博客的时候<strong>一下</strong>就成功了！并且是<strong>没有出现报错</strong>问题的！</p><h1>教程部分</h1><p>现在我们开始教程，这是所需:Github账号，如果可以有域名的可以绑定到Vercel上，一台电脑（废话）</p><h2 id="注册Github账号">注册Github账号</h2><p>这个相信大家都有了，不多废话</p><h2 id="创建一个新的仓库">创建一个新的仓库</h2><p>我们去Github创建一个新的仓库，仓库名必须是你的用户名.github.io有域名的也可以不用QWQ（前提是你是绑定到你的Vercel的）<strong>必须是公开仓库（不然别人无法访问）<strong>和</strong>必须是用户名.github.io的仓库名字</strong>例如我的qianxun7747.github.io其中<strong>qianxun7747</strong>是我的Github用户名</p><h2 id="安装插件">安装插件</h2><p>我们输入以下命令，它是部署插件安装命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/08/06/M3hSda2TRBrYZ9m.png" alt="Snipaste_2023-08-02_15-15-19.png"></p><h2 id="连接账户">连接账户</h2><p>这一步是为了让github确定我们是仓库所有者<br>我们输入以下命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name<span class="string">&quot;你的github账户名&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/08/06/PjeMKL6JfnvOCND.png" alt="Snipaste_2023-08-02_15-20-24.png"><br>然后我们输入</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.email<span class="string">&quot;你的github邮箱&quot;</span></span><br></pre></td></tr></table></figure><p><img src="https://s2.loli.net/2023/08/06/2j5Ne7TqEcwDpLF.png" alt="Snipaste_2023-08-02_15-22-01.png"></p><h2 id="生成密钥">生成密钥</h2><p>接下来我们输入以下命令生成我们的密钥，没有特殊存放路径一键回车即可</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;youremail&quot;</span></span><br></pre></td></tr></table></figure><p>将youremail更换为自己注册github的邮箱<br><img src="https://s2.loli.net/2023/08/06/xZPqJ2SNBaDF5Ch.png" alt="Snipaste_2023-08-02_15-24-06.png"></p><h2 id="填写密钥">填写密钥</h2><p>我们来到这个位置找到我们生成的密钥<br><img src="https://s2.loli.net/2023/08/06/IxDS8w1PgpmjWeO.png" alt="Snipaste_2023-08-02_15-26-08.png"><br>打开id_rsa.pub并复制里面的内容<br><img src="https://s2.loli.net/2023/08/06/4O9qzoigL78EuTR.png" alt="Snipaste_2023-08-02_15-26-30.png"><br><img src="https://s2.loli.net/2023/08/06/OVYQKxlRPsqmwJ8.png" alt="Snipaste_2023-08-02_15-28-06.png"><br>回到我们所创建的仓库找到设置，ssh和key的那一栏<br><img src="https://s2.loli.net/2023/08/06/EuWafClvpV59iTb.png" alt="Snipaste_2023-08-02_15-28-32.png"><br><img src="https://s2.loli.net/2023/08/06/xTLYsymk9bJV3NA.png" alt="Snipaste_2023-08-02_15-28-52.png"><br>然后我们添加key,名字随便，key是我们刚刚复制的那一个<br><img src="https://s2.loli.net/2023/08/06/Xporsg4G7KeEO6l.png" alt="Snipaste_2023-08-02_15-29-07.png"><br><img src="https://s2.loli.net/2023/08/06/qUAifm2jZBaS3Ih.png" alt="Snipaste_2023-08-02_15-30-44.png"><br>一定要勾选下面那一行</p><h2 id="配置文件">配置文件</h2><p>我们复制你仓库的这个，选择SSH<br><img src="https://s2.loli.net/2023/08/06/CfyzvZbV2Nh4FuS.png" alt="QQ截图20230806144250.png"><br>将它复制下来填入进配置文件，注意！按照以下格式填写<br>deploy:<br>type: ‘git’<br>repository: 填写你复制的<br>branch: master<br>然后hexo三连 hexo cl &amp;&amp; hexo g &amp;&amp; hexo d即可完成部署啦！<br><img src="https://s2.loli.net/2023/08/06/PAImCsfUDS6NXl1.png" alt="Snipaste_2023-08-02_15-38-18.png"><br>我们可以访问你的用户名.github.io就可以啦</p><h1>最后</h1><p>有任何事情可以留言，邮箱,评论,qq等等</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;前言&lt;/h1&gt;
+&lt;p&gt;啊啊啊啊！为什么又出错了！为什么又不行！啊啊啊！不做了！相信各位小伙伴都有过&lt;strong&gt;部署出错&lt;/strong&gt;的崩溃和网上东搜西搜&lt;strong&gt;仍然无法解决&lt;/strong&gt;的问题，那么疾行侠就来教大家一下吧！QWQ！不保证成功，这是我重做</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="教程" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="部署" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="教程" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>热血无赖“心得”</title>
+    <link href="https://jixingwu.qianxun7747.eu.org/posts/58319.html"/>
+    <id>https://jixingwu.qianxun7747.eu.org/posts/58319.html</id>
+    <published>2023-07-05T09:57:53.000Z</published>
+    <updated>2023-10-01T05:48:55.895Z</updated>
+    
+    <content type="html"><![CDATA[<h1>关于热血无赖游戏的心得</h1><p>Hello 大家好！我是<strong>疾行侠</strong>玩热血无赖这么久了，我觉得可以给大家分享一点心得。</p><h2 id="如何打架">如何打架</h2><p>大家在热血无赖中打架都会吧？其实我们只需要<strong>鼠标左键</strong>和<strong>F</strong>的组合即可了！这个是大部分通用的。</p><h1>打架技巧</h1><p>如何高效的打架呢？现在！千寻就来告诉你！</p><h2 id="反击">反击</h2><p>反击在热血无赖中对我们是很有帮助的！比如我们在打寺庙之类的任务时，他们还会<strong>反击</strong>我们，搞得我们都不敢攻击只能反击了，那么现在，我们就来了解一下<strong>反击</strong></p><h3 id="什么是反击？">什么是反击？</h3><p>反击是我们在跟敌人打架时很<strong>好用</strong>的一个方式.当敌人攻击你时，他会有一段时间<strong>泛红</strong>像这样<br><img src="https://s2.loli.net/2023/07/06/zFSj3nGBTpxuo81.jpg" alt="20230706081028_1.jpg"><br>我们就要抓住这段时间，当敌人<strong>泛红</strong>时，迅速按<strong>E</strong>有时候我们按E他<strong>没有反应过来</strong>那该怎么办呢？</p><h3 id="当按E没有反应时应该怎么办？">当按E没有反应时应该怎么办？</h3><p>我们有时会发现，当敌人泛红时我们按E，他居然<strong>没有反应</strong>！那该怎么办呢？其实这跟我们的<strong>电脑配置</strong>或其他因素有关，当我们<strong>配置低时，游戏很容易有延迟，卡顿，FPS低</strong>的现象，我们可以提前按，或者在设置中将分辨率<strong>降低</strong>并开启全屏或者<strong>超频</strong>或者就<strong>换电脑</strong><br><img src="https://s2.loli.net/2023/07/06/XN3h4juvHTqsLKS.gif" alt="101426t6i43nq4xgaqa6mt.gif"> 好当我没说，或者说你<strong>不想牺牲画质又想反击的时候</strong>你可以<strong>提前</strong>按下<strong>E</strong>就行了。</p><h3 id="如何拥有帅气的反击？">如何拥有帅气的反击？</h3><p>给大家看一组<strong>衰</strong>气的<strong>反击</strong>视频</p><iframe src="//player.bilibili.com/player.html?aid=913104052&bvid=BV1QM4y1L7DH&cid=1186722269&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 400px;"></iframe><p>这个视频中我运用到了<strong>反击和F</strong>的组合，这个是在收集翡翠学习的格斗技巧，前期没有。</p><h2 id="不要对某些人使用F擒拿">不要对某些人使用F擒拿</h2><p>大家可以在后面看到我对大胖子进行了擒拿，可我却被<strong>打倒</strong>在地了，其实有一些人是不可以进行擒拿的，现在我给大家说一些我知道的人。</p><h3 id="大胖子">大胖子</h3><p><img src="https://cdn.staticaly.com/gh/qianxun7747/picx-images-hosting@master/20230706/20230706104630_1.34ojbiykv920.jpg" alt="大胖子"></p><h3 id="僧人">僧人</h3><p><img src="https://cdn.staticaly.com/gh/qianxun7747/picx-images-hosting@master/20230706/20230706105745_1.u910yb9vgs0.jpg" alt="僧人"> 僧人<strong>似乎</strong> <strong>只有</strong>在<strong>任务中</strong>不能擒拿，平时可以</p><h3 id="带武器的">带武器的</h3><p><img src="https://cdn.staticaly.com/gh/qianxun7747/picx-images-hosting@master/20230706/20230706104641_1.6w61s9dwoj80.jpg" alt="带武器"></p><h3 id="警察">警察</h3><p><img src="https://cdn.staticaly.com/gh/qianxun7747/picx-images-hosting@master/20230706/20230706105212_1.5mhloikaucw0.jpg" alt="警察"></p><h3 id="特定人物">特定人物</h3><p>在某些任务中即使他没有武器也不是大胖子我们也不能进行擒拿，因为任务中他就是这样的，所以我们只能反击了。</p><h1>最后</h1><p>有什么问题可以加我QQ：3074969361或者评论与邮箱，右下角的发消息也可以哦！但是发消息不怎么看最好加QQ</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;关于热血无赖游戏的心得&lt;/h1&gt;
+&lt;p&gt;Hello 大家好！我是&lt;strong&gt;疾行侠&lt;/strong&gt;玩热血无赖这么久了，我觉得可以给大家分享一点心得。&lt;/p&gt;
+&lt;h2 id=&quot;如何打架&quot;&gt;如何打架&lt;/h2&gt;
+&lt;p&gt;大家在热血无赖中打架都会吧？其实我们只需要&lt;stron</summary>
+      
+    
+    
+    
+    <category term="热血无赖" scheme="https://jixingwu.qianxun7747.eu.org/categories/%E7%83%AD%E8%A1%80%E6%97%A0%E8%B5%96/"/>
+    
+    
+    <category term="热血无赖" scheme="https://jixingwu.qianxun7747.eu.org/tags/%E7%83%AD%E8%A1%80%E6%97%A0%E8%B5%96/"/>
+    
+  </entry>
+  
+</feed>
