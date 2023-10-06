@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://jixingwu.qianxun7747.eu.org/box/animation/index.html</loc>
+    
+    <lastmod>2023-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://jixingwu.qianxun7747.eu.org/life/movies/index.html</loc>
     
     <lastmod>2023-10-03</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://jixingwu.qianxun7747.eu.org/life/games/index.html</loc>
-    
-    <lastmod>2023-10-03</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://jixingwu.qianxun7747.eu.org/box/animation/index.html</loc>
     
     <lastmod>2023-10-03</lastmod>
     
@@ -191,20 +191,6 @@
 
   
   <url>
-    <loc>https://jixingwu.qianxun7747.eu.org/tags/%E9%83%A8%E7%BD%B2/</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jixingwu.qianxun7747.eu.org/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2023-10-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jixingwu.qianxun7747.eu.org/tags/%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -227,6 +213,20 @@
   
   <url>
     <loc>https://jixingwu.qianxun7747.eu.org/tags/MD/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jixingwu.qianxun7747.eu.org/tags/%E9%83%A8%E7%BD%B2/</loc>
+    <lastmod>2023-10-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jixingwu.qianxun7747.eu.org/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -347,7 +347,7 @@
   </url>
   
   <url>
-    <loc>https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://jixingwu.qianxun7747.eu.org/categories/%E5%89%8D%E7%AB%AF/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2023-10-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
